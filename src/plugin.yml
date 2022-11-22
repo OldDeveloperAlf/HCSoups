@@ -1,0 +1,12 @@
+main: org.hcsoups.hardcore.Hardcore
+name: ${project.name}
+version: ${project.version}
+website: ${project.url}
+authors: ["§crbrick"]
+depend: [ProtocolLib]
+
+permissions:
+  warps.#:
+    description: warp.<Number of warps>
+  spawn.build:
+    default: op
